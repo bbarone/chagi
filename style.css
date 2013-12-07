@@ -67,7 +67,7 @@ h1 {
 }
 
 h2 {
-	font-family:"Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
+	font-family:"Proxima Nova Alt Semibold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	text-align: center;
 	margin-top: 40px;
@@ -76,7 +76,7 @@ h2 {
 }
 
 h3 {
-	font-family:"Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
+	font-family:"Proxima Nova Alt Semibold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 21px;
 	text-align: center;
 	margin-top: 60px;
@@ -87,7 +87,7 @@ h3 {
 }
 
 p {
-	font-family:"Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
+	font-family:"Proxima Nova Alt Semibold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	z-index: 101;
 	font-weight: 600;
