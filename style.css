@@ -67,30 +67,30 @@ h1 {
 }
 
 h2 {
-	font-family: 'Roboto', Arial, sans-serif;
+	font-family:"Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
 	font-size: 16px;
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 60px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 h3 {
-	font-family: 'Roboto', Arial, sans-serif;
+	font-family:"Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
 	font-size: 21px;
 	text-align: center;
 	margin-top: 60px;
 	margin-bottom: 0px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 p {
-	font-family: 'Roboto', Arial, sans-serif;
+	font-family:"Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
 	font-size: 16px;
 	z-index: 101;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .mainimage p {
