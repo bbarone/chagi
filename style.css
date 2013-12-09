@@ -52,14 +52,8 @@ hr {
 
 /* Font Styles */
 
-@font-face
-{
-font-family: fontJeewon;
-src: url('Akzidenz_Grotesk_Bold.ttf');
-}
-
 h1 {
-	font-family: 'Roboto', Arial, sans-serif;
+	font-family: "Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
 	font-size: 48px;
 	text-align: center;
 	text-transform:uppercase;
@@ -67,30 +61,33 @@ h1 {
 }
 
 h2 {
-	font-family:"Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
+	font-family: "Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
 	font-size: 16px;
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 60px;
-	font-weight: 600;
+	font-weight: 500;
+	letter-spacing: 0.75px;
 }
 
 h3 {
-	font-family:"Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
+	font-family: "Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
 	font-size: 21px;
 	text-align: center;
-	margin-top: 60px;
+	margin-top: 40px;
 	margin-bottom: 0px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 p {
-	font-family:"Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
+	font-family: "Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
 	font-size: 16px;
 	z-index: 101;
-	font-weight: 600;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: 0.75px;
 }
 
 .mainimage p {
@@ -236,15 +233,21 @@ img {
 	color: grey;
 	padding-top: 10px;
 	margin-top: 0px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 	letter-spacing: 2px;
+}
+
+.back a:hover {
+	color: black;
+    transition: .2s ease-in-out;
+   	-moz-transition: .2s ease-in-out;
+   	-webkit-transition: .2s ease-in-out;
 }
 
 .navigate {
 	text-align: center;
 	color: grey;
-	padding-top: 30px;
-	padding-bottom: 50px;
+	margin-top: 50px;
 	letter-spacing: 2px;
 }
 
@@ -252,13 +255,22 @@ img {
 	text-decoration: none;
 	color: grey;
 	letter-spacing: 2px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.navigate a:hover {
+	color: black;
+    transition: .2s ease-in-out;
+   	-moz-transition: .2s ease-in-out;
+   	-webkit-transition: .2s ease-in-out;
 }
 
 .box {
 	position: relative;
-    bottom: 0;
+    bottom: 20px;
     right: 0;
-   	margin-bottom: 50px;
+   	margin-bottom: 80px;
 }
 
 .arrow {
@@ -273,27 +285,4 @@ img {
    	-moz-transition: .2s ease-in-out;
    	-webkit-transition: .2s ease-in-out;
     background-color: white;
-}
-
-@media (min-width : 768px) and (max-width : 1024px) {
-
-body {
-	width: 845px;
-}
-
-h2 {
-	font-size: 20px;
-}
-
-#tiles {
-	width: 845px;
-	margin: 0 auto;
-   -webkit-column-count: 3;
-   -webkit-column-gap:   10px;
-   -moz-column-count:    3;
-   -moz-column-gap:      10px;
-   column-count:         3;
-   column-gap:           10px;
-}
-
 }
