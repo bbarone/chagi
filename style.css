@@ -219,9 +219,8 @@ img {
 
 .work img {
 	padding-bottom: 10px;
-    	max-width:100% !important;
-    	height:auto;
-    	display:block;
+  	width: 100% !important;
+  	height: auto !important;
 }
 
 .work p {
