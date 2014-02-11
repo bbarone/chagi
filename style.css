@@ -53,7 +53,7 @@ hr {
 /* Font Styles */
 
 h1 {
-	font-family: "Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
+	font-family: "Apercu Pro Medium", "Trebuchet MS", "Arial", sans-serif;
 	font-size: 48px;
 	text-align: center;
 	text-transform:uppercase;
@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-	font-family: "Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
+	font-family: "Apercu Pro Medium", "Trebuchet MS", "Arial", sans-serif;
 	font-size: 16px;
 	text-align: center;
 	margin-top: 40px;
@@ -71,7 +71,7 @@ h2 {
 }
 
 h3 {
-	font-family: "Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
+	font-family: "Apercu Pro Medium", "Trebuchet MS", "Arial", sans-serif;
 	font-size: 21px;
 	text-align: center;
 	margin-top: 40px;
@@ -82,7 +82,7 @@ h3 {
 }
 
 p {
-	font-family: "Apercu Pro Medium", 'Trebuchet MS', Arial, sans-serif;
+	font-family: "Apercu Pro Medium", "Trebuchet MS", "Arial", sans-serif;
 	font-size: 16px;
 	z-index: 101;
 	font-weight: 500;
