@@ -300,11 +300,6 @@ img {
 	   column-gap:           32px;
 	}
 	
-	.work img {
-	   width: 100% !important;
-	   height: auto !important;
-	   margin: 0 auto;
-	}
 }
 
 @media (max-width:959px) {
@@ -320,9 +315,4 @@ img {
 	   column-gap:           32px;
 	}
 	
-	.work img {
-	   width: 100% !important;
-	   height: auto !important;
-	   margin: 0 auto;
-	}
 }
