@@ -104,7 +104,6 @@ img {
 }
 
 #tiles {
-   padding-left: 18px;
    line-height: 0px;
    -webkit-column-count: 4;
    -webkit-column-gap:   32px;
@@ -301,6 +300,8 @@ img {
 	   column-gap:           32px;
 	}
 	
+	#tiles { padding-left: 19px; }
+	
 }
 
 @media (max-width:959px) {
@@ -315,5 +316,7 @@ img {
 	   column-count:         2;
 	   column-gap:           32px;
 	}
+	
+	#tiles { padding-left: 21px; }
 	
 }
