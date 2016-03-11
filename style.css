@@ -114,6 +114,7 @@ img {
    column-gap:           32px;
    z-index: -1;
    padding-bottom: 20px;
+   display: inline-block;
 }
 
 .mainimage {
