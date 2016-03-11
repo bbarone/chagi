@@ -112,6 +112,7 @@ img {
    -moz-column-gap:      32px;
    column-count:         4;
    column-gap:           32px;
+   margin-bottom: 80px;
 }
 
 .mainimage {
