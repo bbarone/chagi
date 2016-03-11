@@ -112,9 +112,11 @@ img {
    -moz-column-gap:      32px;
    column-count:         4;
    column-gap:           32px;
-   z-index: -1;
-   padding-bottom: 20px;
-   display: inline-block;
+   padding-bottom: 	20px;
+}
+
+#tiles p {
+	display: inline-block;
 }
 
 .mainimage {
